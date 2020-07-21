@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity"
+    android:background="#EF700E">
+
+
+    <ImageView
+        android:id="@+id/gscore"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/gonscore"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IliveSoccer"
+        android:textColor="#ffffffff"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/gscore"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="8dp"/>
+
+
+</RelativeLayout>
