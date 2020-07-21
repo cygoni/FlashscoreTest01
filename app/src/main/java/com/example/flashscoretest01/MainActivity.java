@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickLogin(){
-        please
+        //change error pleas over please please today All Kill please
 
     }
     
